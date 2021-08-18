@@ -1,0 +1,68 @@
+.btn-outline-light:hover{
+    background-color: transparent !important;
+    color: white !important;
+    opacity: 0.8;
+}
+.btn-outline-dark:hover{
+    background-color: transparent !important;
+    color: #333 !important;
+    opacity: 0.8;
+}
+.px-192px{
+    padding-left: 192px;
+    padding-right: 192px;
+}
+.pe-512px{
+    padding-right: 512px;
+}
+/* .fa-soundcloud{
+    color: white !important;
+} */
+body{
+    padding: 0 56px;
+}
+.mw-500px{
+    min-width: 500px;
+}
+.mw-fit{
+    min-width: fit-content;
+}
+.z-index-1{
+    z-index: 1;
+}
+.w-20{
+    max-width: 20%;
+}
+.song-cover{
+    width:100%;
+    height: auto;
+}
+.cursor-pointer{
+    cursor: pointer;
+}
+.artist-name:hover{
+    color: #333 !important;
+}
+.like-follow-more{
+    background: linear-gradient(0deg, rgba(0, 0, 0, 0.678), transparent);
+}
+.like-follow-more, .play{
+    visibility: hidden;
+    opacity: 0;
+    transition: all 0.2s ease-out;
+}
+.song-img-container:hover .like-follow-more,
+.song-img-container:hover .play{
+    visibility: visible;
+    opacity: 1;
+}
+.song i:hover{
+    transition: all 0.2s ease-out;
+    opacity: 0.8;
+}
+.top-25{
+    top: 25%;
+}
+.footer__nav-link:hover a{
+    color: #333 !important;
+}

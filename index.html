@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sound Cloud</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css"
+        integrity="sha512-NhSC1YmyruXifcj/KFRWoC561YpHpc5Jtzgvbuzx5VozKpWvQ+4nXhPdFgmx8xqexRcpAglTj9sIBWINXa8x5w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="./assets/css/base.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <!-- <link rel="stylesheet" href="./assets/css/responsive.css"> -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <meta http-equiv='cache-control' content='no-cache'>
+    <meta http-equiv='expires' content='0'>
+    <meta http-equiv='pragma' content='no-cache'>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+</head>
+
+<body class="bg-light">
+    <nav class="navbar navbar-expand-lg navbar-light bg-dark px-2">
+        <div class="container-fluid">
+            <div class="d-flex align-items-sm-center">
+                <a href="#"><i class="fab fa-soundcloud fs-1 me-2 text-light" aria-hidden="true"></i></a>
+                <a href="#" class="text-decoration-none navbar-brand text-light fs-6 fw-bold" href="#">SOUND CLOUD</a>
+            </div>
+            <!-- <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button> -->
+            <!-- <div class="collapse navbar-collapse" id="navbarSupportedContent"> -->
+            <form class="d-flex">
+                <button class="btn btn-outline-light py-1 fs-6" type="submit">Sign in</button>
+                <button class="btn btn-warning ms-2 py-1 fs-6 text-light" type="submit">Create account</button>
+            </form>
+            <!-- </div> -->
+        </div>
+    </nav>
+    <div class="d-flex flex-column align-items-center bg-dark py-5 px-192px">
+        <h2 class="fw-normal text-light text-center">Connect on SoundCloud</h2>
+        <h5 class="fw-light text-light text-center">Discover, stream, and share a constantly expanding mix of music from
+            emerging and major artists around the world.</h5>
+        <button class="btn btn-warning fs-6 mt-3 text-light py-2 px-4" type="submit">Sign up for free</button>
+    </div>
+    <div class="d-flex flex-column align-items-center bg-white py-5 px-3">
+        <div class="d-flex justify-content-center align-items-center">
+            <form class="mw-500px position-relative d-flex">
+                <input type="text" class="bg-light shadow-none form-control"
+                    placeholder="Search for artits, bands, tracks, podcasts...">
+                <button type="submit" class="btn position-absolute end-0 z-index-1 text-light"><i
+                        class="fa fa-search text-dark"></i></button>
+            </form>
+            <span class="mx-2">or</span>
+            <button class="btn btn-warning py-1 fs-6 mw-fit text-light py-2 px-4" type="submit">Upload your own</button>
+        </div>
+        <h4 class="text-dark fw-normal my-4">Hear what’s trending for free in the SoundCloud community</h4>
+        <div class="trending d-flex flex-wrap">
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+            <div class="song w-20 px-3 mb-4 d-flex flex-column">
+                <div class="song-img-container w-100 cursor-pointer position-relative">
+                    <img src="./assets/img/JOJI_ALBUM_NECTAR_900x.jpg" class="song-cover" alt="song-img">
+                    <div
+                        class="like-follow-more position-absolute  w-100 h-100 d-flex flex-row justify-content-end align-items-end bottom-0 pb-2">
+                        <i class="fa fa-heart text-white me-2" title="Like"></i>
+                        <i class="fas fa-user-plus text-white me-2" title="Follow"></i>
+                        <i class="fas fa-ellipsis-h text-white me-2" title="More"></i>
+                    </div>
+                    <div
+                        class="play position-absolute top-25 w-100 h-50 d-flex justify-content-center align-items-center">
+                        <i class="fas fa-play-circle fs-1 text-warning"></i>
+                    </div>
+                </div>
+                <a href="#" class="text-decoration-none fs-6 song-name text-dark mb-0 mt-1">Like You Do</a>
+                <a href="#" class="text-decoration-none fs-6 artist-name text-secondary">Joji</a>
+            </div>
+        </div>
+        <button class="btn btn-warning py-1 fs-6 mw-fit text-light py-2 px-4" type="submit">Explore trending
+            playlists</button>
+    </div>
+    <div class="d-flex flex-column align-items-start bg-dark py-5 ps-5 pe-512px">
+        <h2 class="fw-normal text-light">Calling all creators</h2>
+        <h5 class="fw-light text-light">Get on SoundCloud to connect with fans, share your sounds, and grow your audience. What are you waiting for?</h5>
+        <button class="btn btn-outline-light py-2 px-4 mt-3" type="submit">Find out more</button>
+    </div>
+
+    <div class="d-flex flex-column align-items-center bg-white py-5 px-192px">
+        <h2 class="fw-normal text-dark text-center">Thanks for listening. Now join in.</h2>
+        <h4 class="fw-normal text-dark text-center">Save tracks, follow artists and build playlists. All for free.</h4>
+        <button class="btn btn-warning fs-6 mt-3 text-light py-2 px-4" type="submit">Create account</button>
+        <div class="d-flex align-items-center mt-3">
+            <p class="mb-0 me-3">Already have an account?</p>
+            <button type="submit" class="btn btn-outline-dark text-dark">Sign in</button>
+        </div>
+    </div>
+
+    <footer class="bg-white px-4">
+        <hr class="mt-0">
+        <ul class="d-flex list-unstyled w-25 justify-content-between">
+            <li class="footer__nav-link"><a href="#" class="text-secondary text-decoration-none">About us</a></li>
+            <li class="footer__nav-link"><a href="#" class="text-secondary text-decoration-none">Help</a></li>
+            <li class="footer__nav-link"><a href="#" class="text-secondary opacity-25 text-decoration-none">Legal</a></li>
+            <li class="footer__nav-link"><a href="#" class="text-secondary opacity-25 text-decoration-none">Privacy</a></li>
+        </ul>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
