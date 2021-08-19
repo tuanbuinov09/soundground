@@ -12,8 +12,8 @@
     padding-left: 192px;
     padding-right: 192px;
 }
-.pe-512px{
-    padding-right: 512px;
+.pe-666px{
+    padding-right: 666px;
 }
 /* .fa-soundcloud{
     color: white !important;
@@ -65,4 +65,20 @@ body{
 }
 .footer__nav-link:hover a{
     color: #333 !important;
+}
+.fa-play-circle{
+    font-size: 48px;
+}
+.login-dialog{
+    background-color: rgba(51, 51, 51, 0.644);
+}
+.end-8px.top-4px{
+    right: 8px;
+    top: 4px;
+}
+.h-fit{
+    height: fit-content;
+}
+.login-dialog{
+    z-index: 99;
 }
