@@ -18,11 +18,15 @@
 /* .fa-soundcloud{
     color: white !important;
 } */
-body{
+.px-56px{
     padding: 0 56px;
 }
+
 .mw-500px{
     min-width: 500px;
+}
+.mw-400px{
+    min-width: 400px;
 }
 .mw-fit{
     min-width: fit-content;
@@ -32,6 +36,9 @@ body{
 }
 .w-20{
     max-width: 20%;
+}
+.height-55px{
+    height: 55px;
 }
 .song-cover{
     width:100%;
@@ -81,4 +88,27 @@ body{
 }
 .login-dialog{
     z-index: 99;
+}
+.navbar li:hover a{
+    background-color: black;
+}
+.user-menu-open:hover{
+    background-color: black;
+    
+}
+.line-height-55px{
+    line-height: 55px;
+}
+.border-start-black{
+    border-left: 1px solid black ;
+}
+.border-end-black{
+    border-right: 1px solid black ;
+}
+.userImg-container{
+    border-radius: 50px;
+    overflow: hidden;
+    width: 32px;
+    height: 32px;
+    line-height: 0;
 }

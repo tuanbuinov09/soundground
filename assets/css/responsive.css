@@ -4,7 +4,7 @@
     }
 }
 @media (max-width: 1023px) {
-    body{
+    .px-56px{
         padding: 0;
     }
     .px-192px{
@@ -14,6 +14,9 @@
     
     .pe-666px{
         padding-right: 356px;
+    }
+    .mw-500px{
+        min-width: 350px;
     }
 }
 @media (max-width: 740px){
