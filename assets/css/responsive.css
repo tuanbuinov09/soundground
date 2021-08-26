@@ -1,11 +1,25 @@
 @media (max-width: 1199px){
     .pe-666px{
         padding-right: 512px;
+    } 
+    .text-overflow-ellipsis{
+        max-width: 200px;
     }
-}
-@media (max-width: 1023px) {
     .px-56px{
         padding: 0;
+    }
+    .end-56px{
+        right: 0;
+    }
+}
+
+@media (max-width: 1023px) {
+    .me-370px{
+        margin-right: 330px;
+    }
+    .w-370px{
+        min-width: 330px;
+        max-width: 330px;
     }
     .px-192px{
         padding-left: 64px;
@@ -18,8 +32,43 @@
     .mw-500px{
         min-width: 350px;
     }
+    .text-overflow-ellipsis{
+        max-width: 200px;
+    }
+    .just-upload{
+        display: flex;
+        flex-direction: column;
+    }
+    .play-list-songs{
+        border-top: 1px solid lightgray;
+        margin-top: 21px;
+    }
+    .header-menu-item.px-4, .fa-soundcloud.px-4, .header-menu-item.px-3
+    {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+    }
+
 }
-@media (max-width: 740px){
+
+@media (max-width: 739px){
+    .content{
+        width: 100%;
+    }
+    .w-370px{
+        min-width: 100%;
+        max-width: 100%;
+    }
+    .side-bar .artist-img-container{
+        width: 20% !important;
+    }
+    .side-bar.position-fixed{
+        position: relative !important;
+        top: unset !important;
+        bottom: unset !important;
+        right: unset !important;
+        overflow: visible !important;
+    }
     .w-20{
         max-width: 50%;
     }
