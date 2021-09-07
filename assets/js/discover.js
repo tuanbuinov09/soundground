@@ -99,7 +99,6 @@ for(var i=0; i<swipeNexts.length;i++){
         this.classList.add("d-none");
     })
 }
-
 var headerMenuItems = document.getElementsByClassName("header-menu-item");
 for(var i=0; i<headerMenuItems.length; i++){
     if(i==0||i==1||i==2||i==3){
@@ -115,7 +114,6 @@ for(var i=0; i<headerMenuItems.length; i++){
         continue;
     }
     headerMenuItems[i].addEventListener("click", function(e){
-        
         var parent = e.target;
         while(!parent.classList.contains("menu-open")){
             parent = parent.parentNode;
@@ -135,3 +133,45 @@ for(var i=0; i<headerMenuItems.length; i++){
         parent.getElementsByClassName("menu")[0].classList.remove("d-none");
     })
 }
+var mobileHeaderMenuItems = document.getElementsByClassName("mobile-header-menu-item");
+for(var i=0; i<mobileHeaderMenuItems.length; i++){
+        mobileHeaderMenuItems[i].addEventListener("click", function(e){
+            for(var j=0; j<mobileHeaderMenuItems.length; j++){
+                mobileHeaderMenuItems[j].classList.remove("bg-black");
+                
+            }
+            this.classList.add("bg-black");
+        })
+    
+}
+
+const swiper1 = new Swiper('.swiper-1', {
+  speed: 400,
+  spaceBetween: 100,
+  pagination: {
+    el: '.swiper-pagination1',
+    clickable: true,
+  },
+  navigation: {
+    nextEl: '.swiper-button-next',
+    prevEl: '.swiper-button-prev',
+  },
+  // Enable debugger
+  debugger: true,
+});
+const swiper2 = new Swiper('.swiper-2', {
+    speed: 400,
+    spaceBetween: 100,
+    pagination: {
+        el: '.swiper-pagination2',
+        clickable: true,
+      },
+      navigation: {
+        nextEl: '.swiper-button-next',
+        prevEl: '.swiper-button-prev',
+      },
+      // Enable debugger
+      debugger: true,
+  });
+
+
