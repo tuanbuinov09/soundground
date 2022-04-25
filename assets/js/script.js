@@ -22,7 +22,7 @@ for (var i = 0; i < signIn_UpBtns.length; i++) {
     </div>`;
         div.querySelector(".close-login-dialog").addEventListener("click", function(e){
             var closeBtn = e.target;
-            var dialog = closeBi<headermtn.parentNode.parentNode.parentNode;
+            var dialog = closeBtn.parentNode.parentNode.parentNode;
             dialog.remove();
         })
         document.body.append(div);
